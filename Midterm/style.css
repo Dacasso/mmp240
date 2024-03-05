@@ -1,0 +1,22 @@
+body{
+background-color: rgb(143, 143, 143);
+}
+
+
+
+#wrapper {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(211, 211, 211);
+    padding: 1en;
+
+
+}
+
+header {
+    background-color: rgb(2, 2, 24);
+    background-image: url("images/banner.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+}
