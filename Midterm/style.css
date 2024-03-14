@@ -1,8 +1,13 @@
+
 body{
-background-color: rgb(143, 143, 143);
+background-color: rgb(34, 34, 34);
 }
 
-
+p{
+    margin-bottom: 5em;
+    margin-left: 3em
+    
+}
 
 #wrapper {
     width: 1200px;
@@ -13,10 +18,53 @@ background-color: rgb(143, 143, 143);
 
 
 }
+header p{
+    font-size: 12pt;
+    color: antiquewhite;
+    font-family: sans-serif;
+    text-align: left;
+}
 
 header {
     background-color: rgb(2, 2, 24);
     background-image: url("images/banner.png");
     background-repeat: no-repeat;
     background-position: top right;
+    
+}
+
+
+/*navigation 
+/* header banner style ***/
+nav{
+    background-color: rgb(186, 186, 186);
+}
+
+nav a{
+    color: black;
+    text-decoration: none;}
+
+    nav a:hover{
+      text-decoration: underline;
+
+    }
+
+    nav li{
+        display:inline-block;
+        margin-right: 1em;
+        background-color: blue;
+    }
+
+    
+.col-left{
+    float: left;
+    width: 48%;
+}
+.col-right{
+    float: right;
+    width:48%;
+}
+
+footer{
+    clear:both
 }
