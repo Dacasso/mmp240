@@ -5,16 +5,15 @@ background-color: rgb(34, 34, 34);
 
 p{
     margin-bottom: 5em;
-    margin-left: 3em
+    margin-left:auto
     
 }
 
 #wrapper {
-    width: 1200px;
-    margin-right: auto;
-    margin-left: auto;
-    background-color: rgb(211, 211, 211);
-    padding: 1en;
+    max-width: 1200px;
+    margin:0 auto; /* first value is for top & bottom, second is for sides*/
+    background-color: rgb(1, 1, 2);
+    padding: .5em;
 
 
 }
@@ -26,10 +25,8 @@ header p{
 }
 
 header {
-    background-color: rgb(2, 2, 24);
-    background-image: url("images/banner.png");
-    background-repeat: no-repeat;
-    background-position: top right;
+  background: url(images/AHS.MMP.jpg) right top no-repeat;
+  background-size: 60%  ;
     
 }
 
@@ -37,7 +34,7 @@ header {
 /*navigation 
 /* header banner style ***/
 nav{
-    background-color: rgb(186, 186, 186);
+    background-color: rgb(176, 176, 176);
 }
 
 nav a{
@@ -51,8 +48,8 @@ nav a{
 
     nav li{
         display:inline-block;
-        margin-right: 1em;
-        background-color: blue;
+        margin-left: 1em;
+        background-color: rgb(163, 2, 2);
     }
 
     
