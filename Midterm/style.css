@@ -20,6 +20,16 @@ h2{
     
 }
 
+
+h4{ 
+    text-decoration: underline;
+    font-size: 14pt;
+    font-family:sans-serif;
+    color: rgb(252, 49, 49);
+    margin-left: 1em;
+    }
+
+
 p{
     font-size: 14pt;
     font-family: Arial, Helvetica, sans-serif;
@@ -106,4 +116,16 @@ nav a{
 
 footer{
     clear:both
+}
+
+/*********** Episodes******/
+
+.flex-layout{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:22%;
+    margin:1em;
 }
