@@ -76,6 +76,9 @@ background-size: cover;
   height: 400px;
     
 }
+.button:hover{
+    background-color: darkred;
+}
 
 button{
     font-size: 18pt;
@@ -142,11 +145,13 @@ footer{
 }
 
 .card{
-    flex:1 0 auto;
-    width:20%;
+    flex:0 0 auto;
+    width:22%;
     margin:1em;
 
     .img-card{
-        width: 100%;
+        width: 240px;
+        margin: 1em;
     }
+   
 }
