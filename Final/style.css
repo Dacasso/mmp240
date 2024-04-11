@@ -1,3 +1,73 @@
 .flex-container{
      display:flex
+
+
+
+
+
+
+
+
+
+
+
+
+/***** reset */
+
+*{
+     margin:0;
+     padding:0;
+     border:0;
+}
+
+/* 2. Page level styles */
+html{ 
+     font-size: 20px;
+}
+
+body{
+     font-family: sans-serif;
+     line-height: 1.5em;
+     margin: 0.5rem;
+}
+
+input{
+     border: solid 1px black;
+}
+
+
+
+#wrapper {
+          max-width:1200px;
+          margin:0 auto;
+     }
+
+
+     /* ******* 3. typography*/
+
+     h1{
+          font-size: 1.5rem;
+          line-height: 1em;
+          
+     }
+
+     /* **** 4. Utilities **** */
+
+
+
+
+
+     /* **** 5. Header & top Nav **** */
+    
+     #top-menu{
+          list-style-type: none;
+          padding: 0.5em;
+          border:solid 1px black;
+          background-color: whitesmoke;
+          clear:right
+          position: absolute;
+     }
+
+
+
 }
