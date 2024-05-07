@@ -48,15 +48,7 @@
     width: 1200 px;
 }
 
-    footer {
-    background-color : #333;
-    color : #fff;
-    padding : 20px;
-    text-align : center;
-    position : bottom;
-    bottom : 0;
-    width : 1200px;
-    }
+  
     .layout img {
     width : 100%;
     }
@@ -77,3 +69,37 @@
     margin : auto;
     padding : 2em;
     }
+
+    .news {
+        
+        right: 5em;
+
+    }
+
+    #top-menu {
+        display: flex;
+        border: none;
+        position: static;
+    }
+
+    #top-menu ul {
+        display: flex;
+    }
+
+#top-menu li { 
+    margin-right: 1em;
+}
+.menu-icon {
+    display: none;
+}
+
+footer {
+    background-color : #333;
+    color : #fff;
+    padding : 20px;
+    text-align : center;
+    position : absolute;
+    bottom : 0;
+    width : 1200px;
+    }
+
