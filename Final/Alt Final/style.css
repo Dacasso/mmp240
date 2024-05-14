@@ -179,6 +179,17 @@ h5 {
     
 }
 
+ .main-menu li {
+        display:inline-block;
+        background-color: #ccc;
+        padding: 0.5em 7em ;
+        margin: 0 1%;
+       
+        
+      }
+
+
+
 
 
 
@@ -201,6 +212,7 @@ h5 {
         margin: 0 1%;
         position:relative
         
+        
       }
       
       .dropdown {
@@ -213,7 +225,7 @@ h5 {
       
       .dropdown li{
         display: block;
-        border :solid 1px #000000;
+        border :solid 1px #ccc;
         padding:1em 2em ;
         margin-right: 0, ;
         width: 100%;
@@ -222,7 +234,6 @@ h5 {
       
       .main-menu li:hover .dropdown {
         display: block;
-        display: none;
       }
       
     main {
