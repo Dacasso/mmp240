@@ -139,10 +139,13 @@ h5 {
  text-align: center;
  
 }
+.show-menu{
+    float: right;
+}
  
 .site-header{
     height: 4em;
-    width: 100%;
+   
     position: relative;
     padding: 1em;
     border: solid;
@@ -162,8 +165,9 @@ h5 {
 
 .menu {
     display: none;
-    padding: 1em;
     margin: auto;
+    margin-bottom: 1em;
+    
 }
 
 .show-menu {

@@ -1,6 +1,6 @@
-.layout-programs {
+.layout-program {
     display: grid;
-    grid-template-columns: (1fr) ; 
+    grid-template-columns: repeat(3 , 1fr) ; 
     grid-template-rows: 2;
     grid-column-gap: 2rem;
     grid-row-gap: 5rem;
