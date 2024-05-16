@@ -1,9 +1,9 @@
 .layout-program {
     display: grid;
     grid-template-columns: repeat(3 , 1fr) ; 
-    grid-template-rows: 2;
-    grid-column-gap: 2rem;
-    grid-row-gap: 5rem;
+    grid-template-rows: repeat (3, 1fr);
+    grid-column-gap: 1rem;
+    grid-row-gap: 2rem;
     font-family: sans-serif;
 }
 
